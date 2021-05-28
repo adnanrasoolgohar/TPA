@@ -22,3 +22,6 @@ D:\My Files\New folder\TPA\TPA\obj\x86\Debug\TPA.exe
 D:\My Files\New folder\TPA\TPA\obj\x86\Debug\TPA.pdb
 D:\My Files\New folder\TPA\TPA\obj\x86\Debug\TPA.csprojAssemblyReference.cache
 D:\My Files\New folder\TPA\TPA\obj\x86\Debug\TPA.Login.resources
+D:\My Files\New folder\TPA\TPA\bin\Debug\Telerik.WinControls.GridView.dll
+D:\My Files\New folder\TPA\TPA\bin\Debug\Telerik.WinControls.GridView.xml
+D:\My Files\New folder\TPA\TPA\obj\x86\Debug\TPA.exe.licenses
