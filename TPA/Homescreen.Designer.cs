@@ -31,9 +31,16 @@
             this.radPageView1 = new Telerik.WinControls.UI.RadPageView();
             this.radPageViewPage1 = new Telerik.WinControls.UI.RadPageViewPage();
             this.radPageViewPage2 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.telerikMetroTouchTheme1 = new Telerik.WinControls.Themes.TelerikMetroTouchTheme();
+            this.crystalTheme1 = new Telerik.WinControls.Themes.CrystalTheme();
             this.radPageViewPage3 = new Telerik.WinControls.UI.RadPageViewPage();
             this.radPageViewPage4 = new Telerik.WinControls.UI.RadPageViewPage();
             this.radPageViewPage5 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage6 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage7 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage8 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage9 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage10 = new Telerik.WinControls.UI.RadPageViewPage();
             ((System.ComponentModel.ISupportInitialize)(this.radPageView1)).BeginInit();
             this.radPageView1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
@@ -46,10 +53,15 @@
             this.radPageView1.Controls.Add(this.radPageViewPage3);
             this.radPageView1.Controls.Add(this.radPageViewPage4);
             this.radPageView1.Controls.Add(this.radPageViewPage5);
+            this.radPageView1.Controls.Add(this.radPageViewPage6);
+            this.radPageView1.Controls.Add(this.radPageViewPage7);
+            this.radPageView1.Controls.Add(this.radPageViewPage8);
+            this.radPageView1.Controls.Add(this.radPageViewPage9);
+            this.radPageView1.Controls.Add(this.radPageViewPage10);
             this.radPageView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radPageView1.Location = new System.Drawing.Point(0, 0);
             this.radPageView1.Name = "radPageView1";
-            this.radPageView1.SelectedPage = this.radPageViewPage3;
+            this.radPageView1.SelectedPage = this.radPageViewPage1;
             this.radPageView1.Size = new System.Drawing.Size(1433, 748);
             this.radPageView1.TabIndex = 0;
             this.radPageView1.ThemeName = "TelerikMetroTouch";
@@ -61,43 +73,83 @@
             // 
             // radPageViewPage1
             // 
-            this.radPageViewPage1.ItemSize = new System.Drawing.SizeF(16F, 12F);
-            this.radPageViewPage1.Location = new System.Drawing.Point(150, 33);
+            this.radPageViewPage1.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage1.Location = new System.Drawing.Point(281, 33);
             this.radPageViewPage1.Name = "radPageViewPage1";
-            this.radPageViewPage1.Size = new System.Drawing.Size(1282, 714);
-            this.radPageViewPage1.Text = "radPageViewPage1";
+            this.radPageViewPage1.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage1.Text = "Account Setup";
             // 
             // radPageViewPage2
             // 
-            this.radPageViewPage2.ItemSize = new System.Drawing.SizeF(16F, 12F);
-            this.radPageViewPage2.Location = new System.Drawing.Point(101, 33);
+            this.radPageViewPage2.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage2.Location = new System.Drawing.Point(281, 33);
             this.radPageViewPage2.Name = "radPageViewPage2";
-            this.radPageViewPage2.Size = new System.Drawing.Size(1331, 714);
-            this.radPageViewPage2.Text = "radPageViewPage2";
+            this.radPageViewPage2.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage2.Text = "Voucher Manager";
             // 
             // radPageViewPage3
             // 
-            this.radPageViewPage3.ItemSize = new System.Drawing.SizeF(16F, 12F);
-            this.radPageViewPage3.Location = new System.Drawing.Point(41, 33);
+            this.radPageViewPage3.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage3.Location = new System.Drawing.Point(281, 33);
             this.radPageViewPage3.Name = "radPageViewPage3";
-            this.radPageViewPage3.Size = new System.Drawing.Size(1391, 714);
-            this.radPageViewPage3.Text = "radPageViewPage3";
+            this.radPageViewPage3.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage3.Text = "Reports";
             // 
             // radPageViewPage4
             // 
-            this.radPageViewPage4.ItemSize = new System.Drawing.SizeF(16F, 12F);
-            this.radPageViewPage4.Location = new System.Drawing.Point(150, 33);
+            this.radPageViewPage4.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage4.Location = new System.Drawing.Point(281, 33);
             this.radPageViewPage4.Name = "radPageViewPage4";
-            this.radPageViewPage4.Size = new System.Drawing.Size(1282, 714);
-            this.radPageViewPage4.Text = "radPageViewPage4";
+            this.radPageViewPage4.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage4.Text = "Item Setup";
             // 
             // radPageViewPage5
             // 
-            this.radPageViewPage5.ItemSize = new System.Drawing.SizeF(16F, 12F);
-            this.radPageViewPage5.Location = new System.Drawing.Point(101, 33);
+            this.radPageViewPage5.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage5.Location = new System.Drawing.Point(281, 33);
             this.radPageViewPage5.Name = "radPageViewPage5";
-            this.radPageViewPage5.Size = new System.Drawing.Size(1331, 714);
-            this.radPageViewPage5.Text = "radPageViewPage5";
+            this.radPageViewPage5.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage5.Text = "Purchase Order";
+            // 
+            // radPageViewPage6
+            // 
+            this.radPageViewPage6.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage6.Location = new System.Drawing.Point(281, 33);
+            this.radPageViewPage6.Name = "radPageViewPage6";
+            this.radPageViewPage6.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage6.Text = "Purchase Invoice";
+            // 
+            // radPageViewPage7
+            // 
+            this.radPageViewPage7.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage7.Location = new System.Drawing.Point(281, 33);
+            this.radPageViewPage7.Name = "radPageViewPage7";
+            this.radPageViewPage7.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage7.Text = "Purchase Return";
+            // 
+            // radPageViewPage8
+            // 
+            this.radPageViewPage8.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage8.Location = new System.Drawing.Point(281, 33);
+            this.radPageViewPage8.Name = "radPageViewPage8";
+            this.radPageViewPage8.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage8.Text = "Sale Invoice";
+            // 
+            // radPageViewPage9
+            // 
+            this.radPageViewPage9.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage9.Location = new System.Drawing.Point(281, 33);
+            this.radPageViewPage9.Name = "radPageViewPage9";
+            this.radPageViewPage9.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage9.Text = "Sale Return";
+            // 
+            // radPageViewPage10
+            // 
+            this.radPageViewPage10.ItemSize = new System.Drawing.SizeF(141F, 33F);
+            this.radPageViewPage10.Location = new System.Drawing.Point(281, 33);
+            this.radPageViewPage10.Name = "radPageViewPage10";
+            this.radPageViewPage10.Size = new System.Drawing.Size(1151, 714);
+            this.radPageViewPage10.Text = "Reports";
             // 
             // Homescreen
             // 
@@ -124,8 +176,15 @@
         private Telerik.WinControls.UI.RadPageView radPageView1;
         private Telerik.WinControls.UI.RadPageViewPage radPageViewPage1;
         private Telerik.WinControls.UI.RadPageViewPage radPageViewPage2;
+        private Telerik.WinControls.Themes.TelerikMetroTouchTheme telerikMetroTouchTheme1;
+        private Telerik.WinControls.Themes.CrystalTheme crystalTheme1;
         private Telerik.WinControls.UI.RadPageViewPage radPageViewPage3;
         private Telerik.WinControls.UI.RadPageViewPage radPageViewPage4;
         private Telerik.WinControls.UI.RadPageViewPage radPageViewPage5;
+        private Telerik.WinControls.UI.RadPageViewPage radPageViewPage6;
+        private Telerik.WinControls.UI.RadPageViewPage radPageViewPage7;
+        private Telerik.WinControls.UI.RadPageViewPage radPageViewPage8;
+        private Telerik.WinControls.UI.RadPageViewPage radPageViewPage9;
+        private Telerik.WinControls.UI.RadPageViewPage radPageViewPage10;
     }
 }
