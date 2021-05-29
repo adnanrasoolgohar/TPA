@@ -70,6 +70,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountSetup.Designer.cs">
+      <DependentUpon>AccountSetup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Homescreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccountSetup.resx">
+      <DependentUpon>AccountSetup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Homescreen.resx">
       <DependentUpon>Homescreen.cs</DependentUpon>
     </EmbeddedResource>
