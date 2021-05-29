@@ -14,6 +14,7 @@ namespace TPA
         public AccountSetup()
         {
             InitializeComponent();
+            ThemeResolutionService.ApplicationThemeName = "TelerikMetroTouch";
             Set_Grid();
         }
         private  void Set_Grid()
@@ -34,7 +35,7 @@ namespace TPA
             dt.PrimaryKey = new DataColumn[] { dt.Columns["ID"] };
 
 
-            for (int i = 1; i <= 4000000; i++)
+            for (int i = 1; i <= 100000; i++)
             {
                 DataRow row = dt.NewRow();
                 row[0] = i;
@@ -53,7 +54,6 @@ namespace TPA
 
             }
             radGridView1.DataSource = dt;
-            //radVirtualGrid1.p = dt;
 
 
         }
